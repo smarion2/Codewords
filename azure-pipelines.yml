@@ -28,7 +28,7 @@ steps:
     displayName: "Deploying to Azure"
     inputs:
       ConnectionType: 'AzureRM'
-      azureSubscription: 'Microsoft Azure Internal Consumption(869a32c0-5f80-47bd-817e-f054d16ef5d9)'
+      azureSubscription: 'codewords-automation'
       appType: 'webAppLinux'
       WebAppName: 'samcodewords'
       packageForLinux: '$(Build.SourcesDirectory)\CodeWords\bin\Debug\netcoreapp3.1\publish.zip'
